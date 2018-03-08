@@ -1,9 +1,12 @@
----
+
+```{r }
 title: "Coursera Assignment Reproducible Research Week 2"
 author: "Sebastian Fischer"
 date: "8 März 2018"
-output: html_document
----
+output: html_document 
+keep_md: yes
+
+```{r }
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -148,5 +151,6 @@ xyplot(steps~interval | Categorie, data= stepsPerIntervalPerDaygroup, type="l", 
        ylab="Average number of Steps", xlab= "Intervall", 
        main="Average Number of Steps per Intervall separated for Daygroups")
 
+```
 ```
 
